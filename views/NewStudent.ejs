@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<form name="addstudent" method="post" action="/addstudent">
+    Student:<br>
+    <input type="text" name="student"><br>
+    Street:<br>
+    <input type="text" name="street"><br>
+    City:<br>
+    <input type="text" name="city"><br>
+    State:<br>
+    <input type="text" name="state"><br>
+    Sex:<br>
+    <input type="text" name="sex"><br>
+    GPA:<br>
+    <input type="text" name="gpa"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>Student List</h1>
+<ul>student list items</ul>
+<% los.forEach(function(student){%>
+<li><%= student.student %> Lives at <%= student.street %>,<% student.city %></li>
+<%});    %>
+</body>
+</html>
