@@ -15,7 +15,9 @@
     "serve-favicon": "~2.3.0",
     "mongodb": "2.1.7",
     "mongoose": "4.4.6",
-    "kerberos": "~0.0.17"
-
+    "kerberos": "~0.0.17",
+    "window-popup": "1.0.1",
+    "cookies": "0.6.1",
+    "crypto": "0.0.3"
   }
 }

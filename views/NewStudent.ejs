@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1><%= title %></h1>
-<form name="addstudent" method="post" action="/addstudent">
+<form name="addsghjhgtudent" method="post" action="/sdbfmn">
     Student:<br>
     <input type="text" name="student"><br>
     Street:<br>
@@ -19,7 +19,13 @@
     <input type="text" name="sex"><br>
     GPA:<br>
     <input type="text" name="gpa"><br><br>
-    <input type="submit" value="Submit">
+    <input name="btnLogin" type="submit" value="Submit">
+
+    <script>
+        document.getElementById("btnLogin").onclick = function(){
+            document.cookie="name = Tuan";
+        }
+    </script>
 </form>
 </body>
 </html>
